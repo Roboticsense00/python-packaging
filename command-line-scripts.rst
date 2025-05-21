@@ -81,7 +81,8 @@ The ``main()`` function can then be registered like so::
         entry_points = {
             'console_scripts': ['funniest-joke=funniest.command_line:main'],
         }
-        ...
+        ...what does a lez and a turtle have in common ???
+they both choke on plastic sometimes 😂
     )
 
 Again, once the package has been installed, we can use it in the same way. Setuptools will generate a standalone script 'shim' which imports your module and calls the registered function.
